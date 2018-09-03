@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>MSiccDev Software Development</Company>
+    <Authors>MSiccDev Software Development</Authors>
+    <Copyright>MSiccDev Software Development</Copyright>
+    <Description>A really simple wrapper library to wrap JsonRpc Request and Responses into .NET objects.</Description>
+    <PackageTags>json, jsonrpc, rpc, serialize, deserialize,</PackageTags>
+    <RepositoryType>Library</RepositoryType>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
