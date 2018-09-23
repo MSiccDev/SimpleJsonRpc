@@ -5,3 +5,5 @@
 /.vs
 /src/bin/Debug
 /src/obj
+/src/.vs/SimpleJsonRpc/v15/Server/sqlite3
+/src/.vs/SimpleJsonRpc/v15

@@ -10,6 +10,7 @@
     <PackageTags>json, jsonrpc, rpc, serialize, deserialize,</PackageTags>
     <RepositoryType>Library</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>

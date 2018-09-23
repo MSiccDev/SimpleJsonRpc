@@ -12,11 +12,7 @@ namespace SimpleJsonRpc
             this.Id = id;
             this.Method = method;
 
-            var paramsList = new List<object>();
-            if (parameters != null)
-                paramsList.Add(parameters);
-
-            this.Params = paramsList;
+            this.Params = parameters ?? new List<object>(0);
         }
 
         [JsonProperty("jsonrpc", Required = Required.Always)]
